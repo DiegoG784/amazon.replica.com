@@ -1,0 +1,269 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.scss">
+    </head>
+    <!-- <script>
+        $('.carousel').carousel();
+    </script> -->
+    <body>
+        <nav class="nav navbar navbar-expand-lg">
+            <a class="navbar-brand nav-content d-flex" href="#"><img height="34px" width="98px" src="amazon.webp"></a>
+
+                <ul class="navbar-nav mr-auto d-flex justify-content-between container-fluid">
+                    <li class="nav-item active">
+                        <a class="nav-link nav-content nav-button" href="#">
+                            <span class="low-focus-text" >Send to</span>
+                            <br>
+                            <span style=" color:white;">Somewhere</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active d-flex flex-row align-content-center w-100" style="margin-left: 5px; margin-right:5px;">
+                        <form class="form-inline m-0 align-content-center w-100">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <a class="input-group-text" id="basic-addon1" href="#" style="text-decoration: none;">All</a>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search Something" aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="input-group-prepend">
+                                    <a class="input-group-text" id="basic-addon1" href="#"><img src="/search.svg" style="height:24px;"></a>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-content nav-button" href="#" style="width: max-content; color:white;">
+                            Hello! Log-in here
+                            <br>
+                            <b>Accounts and Lists</b>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-content nav-button" href="#" style="width: max-content; color:white;">
+                            Returns
+                            <br>
+                            <b>and Orders</b>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-content nav-button" href="#" style=" color:white;">
+                            0
+                        </a>
+                    </li>
+                </ul>
+        </nav>
+
+        <nav class="category-list navbar navbar-expand-lg">
+            <ul class="navbar-nav mr-auto d-flex container-fluid justify-content-start">
+                <li class="nav-item active category-item nav-content">
+                    <a href="#" class="nav-link p-0" style="color:white">All</a>
+                </li>
+                <li class="nav-item active category-item nav-content">
+                    <a href="#" class="nav-link p-0" style="color:white">Sell here!</a>
+                </li>
+                <li class="nav-item active category-item nav-content">
+                    <a href="#" class="nav-link p-0" style="color:white">Most Sold</a>
+                </li>
+                <li class="nav-item active category-item nav-content">
+                    <a href="#" class="nav-link p-0" style="color:white">Sales for today</a>
+                </li>
+                <li class="nav-item active category-item nav-content">
+                    <a href="#" class="nav-link p-0" style="color:white">Prime</a>
+                </li>
+                <li class="nav-item active category-item nav-content">
+                    <a href="#" class="nav-link p-0" style="color:white">Shop</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="carousel slide carousel-container" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="carousel_placeholder.jpg" alt="slide1">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="carousel_placeholder2.jpg" alt="slide2">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+
+
+
+        <div class="d-flex card-container">
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Some products, go check it!</b></h5>
+                    <span class="card-text">
+                        <div class="container justify-content-center">
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See more products like there</a>
+                    </span>
+                </div>
+            </div>
+                        <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Some products, go check it!</b></h5>
+                    <span class="card-text">
+                        <div class="container justify-content-center">
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See more products like there</a>
+                    </span>
+                </div>
+            </div>
+                        <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Some products, go check it!</b></h5>
+                    <span class="card-text">
+                        <div class="container justify-content-center">
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="#"><img src="frame_placeholder.png" style="width: 150px; height: 150px; background-color: aqua;"></a>
+                                        <p class="m-0">Grain of Glass</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See more products like there</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div  class="nav-footer-container">
+            <footer class="nav-footer">
+                <div class="nav-hopper">
+                    <a href="#">Go back to Home Page</a>
+                </div>
+                <div class="footer-info-container">
+                    <div class="container row footer-info">
+                        <div class="col link-column">
+                            <h5><b>Follow Us</b></h5>
+                            <a href="#">See here</a>
+                            <a href="#">Corporative information</a>
+                            <a href="#">Careers</a>
+                            <a href="#">informations about us</a>
+                            <a href="#">Comunnity</a>
+                            <a href="#">Accesibility</a>
+                            <a href="#">Amazonas Science</a>
+                        </div>
+                        <div class="col link-column">
+                            <h5><b>Gain money with us!</b></h5>
+                            <a href="#">See here</a>
+                            <a href="#">Protect your brand</a>
+                            <a href="#">Give to us</a>
+                            <a href="#">Publish your books</a>
+                            <a href="#">Be an Associate</a>
+                            <a href="#">Announce your products</a>
+                        </div>
+                        <div class="col link-column">
+                            <h5><b>Payment</b></h5>
+                            <a href="#">Payment Methods</a>
+                            <a href="#">Buy with points</a>
+                            <a href="#">Credit Card</a>
+                        </div>
+                        <div class="col link-column">
+                            <h5><b>Let us Help you</b></h5>
+                            <a href="#">Your Account</a>
+                            <a href="#">Shipping Dates</a>
+                            <a href="#">Returns and Devolutions</a>
+                            <a href="#">Manage your content and devices</a>
+                            <a href="#">Recalls and product alerts</a>
+                            <a href="#">Help</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-brand-container">
+                    <div class="footer-brand">
+                        <a class="navbar-brand nav-content d-flex" href="#"><img height="34px" width="98px" src="amazon.webp"></a>
+                        <p>Brazil</p>
+                    </div>
+                </div>
+                <div class="footer-legal-info-container">
+                    <div class="container footer-legal-info">
+                        <a href="#">info</a>
+                        <a href="#">Privacy Notification</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">Ads</a>
+                    </div>
+                    <div class="container footer-legal-info">
+                        <p class="low-focus-text copyright">Amazonas Copyright 0000-2025</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

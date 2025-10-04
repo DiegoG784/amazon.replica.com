@@ -1,0 +1,154 @@
+@import 'bootstrap';
+
+body {
+    background-color: #E3E6E6;
+    font-family: "MS Gothic";
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    background-color: #131921;
+    height: 60px;
+    padding-left: 5px;
+}
+
+.category-list {
+    background-color: #232F3E;
+    height: 39px;
+    max-height: 39px;
+}
+
+.carousel-container {
+    height: 320px;
+}
+
+.carousel-inner {
+    height: 320px;
+}
+
+.category-item {
+    color: white;
+}
+
+.nav-button {
+    height: 100%;
+    align-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+.nav-content {
+    border: 1px rgba(255, 255, 255, 0) solid;
+    padding: 5px;
+    color: white;
+}
+
+
+.nav-content:hover {
+    border: 1px white solid;
+}
+
+.low-focus-text {
+    color: #cccccc;
+}
+
+.left-search {
+    --bs-btn-bg: #E3E6E6;
+    color: #555555;
+}
+
+.card-container {
+    margin: 20px;
+    justify-content: center;
+}
+
+.card-container > div {
+    margin-left: 10px;
+}
+
+.nav-footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-hopper {
+    display: flex;
+    background-color: #232F3E;
+    width: 100%;
+    padding: 10px;
+}
+
+.nav-hopper a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color:#E3E6E6;
+
+}
+
+.footer-info {
+    width: 100%;
+    display: flex;
+    color:#E3E6E6;
+}
+
+.footer-info-container {
+    width: 100%;
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-column a {
+    color:#E3E6E6;
+    text-decoration: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.footer-brand-container {
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-brand > p {
+    margin: 0;
+    margin-left: 40px;
+    color:#E3E6E6;
+    align-self: center;
+}
+
+.footer-legal-info-container {
+    background-color:#0b1016;
+}
+
+.footer-legal-info {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.footer-legal-info a {
+    color: #E3E6E6;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.copyright {
+    margin: 0px;
+    font-size: small;
+}
